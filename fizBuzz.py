@@ -1,4 +1,4 @@
-def nasif(x,t):
+def fizzbuzz(x,t):
     for i in range(1,100):
       if i % x == 0 and i % t == 0:
         print("fizzbuzz")
@@ -11,4 +11,4 @@ def nasif(x,t):
         
     print(i)
 
-nasif(9,7)
+fizzbuzz(9,7)
